@@ -4,7 +4,7 @@ import pickle
 import joblib
 
 # Load the trained model
-filename = r'filename.pkl'
+filename = 'filename.pkl'
 loaded_model = joblib.load(open(filename, 'rb'))
 
 # Define the correct column names
